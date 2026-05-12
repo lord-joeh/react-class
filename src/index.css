@@ -1,4 +1,4 @@
-/* ── Google Fonts ────────────────────────────────────────── */
+/*  Google Fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap");
 
 /* 
@@ -223,7 +223,7 @@ p {
   box-shadow: var(--shadow-md);
 }
 
-.navbar__inner {
+.navbar_inner {
   height: 100%;
   display: flex;
   align-items: center;
@@ -232,7 +232,7 @@ p {
 }
 
 /* Logo */
-.navbar__logo {
+.navbar_logo {
   display: flex;
   align-items: center;
   gap: var(--space-2);
@@ -244,7 +244,7 @@ p {
   flex-shrink: 0;
 }
 
-.navbar__logo-dot {
+.navbar_logo-dot {
   display: inline-block;
   width: 8px;
   height: 8px;
@@ -254,13 +254,13 @@ p {
 }
 
 /* Nav Links */
-.navbar__links {
+.navbar_links {
   display: flex;
   align-items: center;
   gap: var(--space-6);
 }
 
-.navbar__link {
+.navbar_link {
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--neutral-500);
@@ -268,7 +268,7 @@ p {
   position: relative;
 }
 
-.navbar__link::after {
+.navbar_link::after {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -282,25 +282,25 @@ p {
   border-radius: 2px;
 }
 
-.navbar__link:hover,
-.navbar__link.active {
+.navbar_link:hover,
+.navbar_link.active {
   color: var(--brand-dark);
 }
 
-.navbar__link:hover::after,
-.navbar__link.active::after {
+.navbar_link:hover::after,
+.navbar_link.active::after {
   transform: scaleX(1);
 }
 
 /* Nav right section */
-.navbar__right {
+.navbar_right {
   display: flex;
   align-items: center;
   gap: var(--space-4);
 }
 
 /* Cart Button in Navbar */
-.navbar__cart-btn {
+.navbar_cart-btn {
   position: relative;
   display: flex;
   align-items: center;
@@ -316,12 +316,12 @@ p {
     transform var(--transition-fast);
 }
 
-.navbar__cart-btn:hover {
+.navbar_cart-btn:hover {
   background: #1e222d;
   transform: translateY(-1px);
 }
 
-.navbar__cart-badge {
+.navbar_cart-badge {
   position: absolute;
   top: -6px;
   right: -6px;
